@@ -2,10 +2,11 @@
 
 ## Установка
 1. `git clone https://github.com/lidforce/history-service-project.git` 
-3. Ввести `npm install`
+2. Ввести `npm install`
 3. Создать базу данных PostgreSQL и заменить значения переменных окружения в файле `.env`
 4. Для миграции схемы базы данных: `npm run prisma:migrate`
-5. `npm run dev` или `npm start`
+5. Следовать установке [stock-service](https://github.com/lidforce/stock-service-project)
+6. `npm run dev` или `npm start`
 
 
 ## API
